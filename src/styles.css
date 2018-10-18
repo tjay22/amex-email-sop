@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+pre {
+    font-size: 12px;
+}
+
+pre code { padding-left: 40px; position: relative; }
+pre code .line { position: absolute; left: 10px; width: 30px; display: inline-block; }

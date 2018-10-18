@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import 'hammerjs';
+import 'highlight.js';
 
 @Component({
   selector: 'app-root',
